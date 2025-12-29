@@ -1,0 +1,199 @@
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fb;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+.link{
+  margin-top: 24px;
+} 
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+.navbar a:hover {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(119, 119, 119,0.1);
+  padding: 7px;
+}
+
+.btn {
+  background: #4f46e5;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.hero-modern {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  color: white;
+}
+
+.hero-modern h1 {
+  font-size: 3rem;
+}
+
+.hero-modern button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color:blueviolet;
+  font-weight: bold;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,.20);
+}
+ 
+/* .courses-page{
+  margin-top: 50px;
+}
+
+.courses-page h2{
+   background: linear-gradient(135deg, #2563eb, #38bdf8);
+  padding: 20px;
+  text-align: center;
+
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.course-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+   text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,.20);
+} */
+
+
+.courses-page {
+  padding: 50px 8%;
+  background: linear-gradient(135deg, #e0e7ff, #f8fafc);
+  min-height: 100vh;
+}
+
+.courses-page h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  color: #1e3a8a;
+}
+
+/* GRID */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+/* CARD */
+.course-card {
+  background: linear-gradient(145deg, #ffffff, #f1f5f9);
+  border-radius: 18px;
+  padding: 30px 25px;
+  text-align: left;
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* CARD HOVER EFFECT */
+.course-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #6366f1, #3b82f6);
+  opacity: 0;
+  transition: 0.35s;
+}
+
+.course-card:hover::before {
+  opacity: 0.08;
+}
+
+.course-card:hover {
+  transform: translateY(-12px);
+}
+
+/* TEXT */
+.course-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.course-card p {
+  font-size: 0.95rem;
+  color: #475569;
+  margin: 6px 0;
+}
+
+/* BADGE */
+.course-card span {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 12px;
+  background: #e0e7ff;
+  color: #4338ca;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+/* BUTTON */
+.course-card button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.course-card button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .courses-page {
+    padding: 30px 5%;
+  }
+}

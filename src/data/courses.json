@@ -1,0 +1,65 @@
+
+
+[
+  {
+    "id": 1,
+    "title": "React Basics",
+    "price": "₹2,999",
+    "duration": "30 Days",
+    "level": "Beginner"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Mastery",
+    "price": "₹1,999",
+    "duration": "25 Days",
+    "level": "Intermediate"
+  },
+  {
+    "id": 3,
+    "title": "HTML & CSS",
+    "price": "₹999",
+    "duration": "15 Days",
+    "level": "Beginner"
+  },
+
+  {
+    "id": 4,
+    "title": "Core Java",
+    "price": "₹999",
+    "duration": "15 Days",
+    "level": "Beginner"
+  },
+
+  {
+    "id": 5,
+    "title": "Advanced Java",
+    "price": "₹999",
+    "duration": "15 Days",
+    "level": "Beginner"
+  },
+
+  {
+    "id": 6,
+    "title": "Python",
+    "price": "₹1999",
+    "duration": "50 Days",
+    "level": "Beginner"
+  },
+
+  {
+    "id": 7,
+    "title": "Database",
+    "price": "₹999",
+    "duration": "15 Days",
+    "level": "Beginner"
+  },
+
+  {
+    "id": 8,
+    "title": "UI & UX",
+    "price": "₹1999",
+    "duration": "30 Days",
+    "level": "Beginner"
+  }
+]
