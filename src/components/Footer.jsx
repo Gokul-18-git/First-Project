@@ -44,7 +44,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} EduLearn. All rights reserved.
+        © {new Date().getFullYear()} EduNext. All rights reserved.
       </div>
     </footer>
   );
